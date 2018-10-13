@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZWJMeViewController.h
 //  WeiXin
 //
 //  Created by 林泉 on 2018/10/13.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface ZWJMeViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

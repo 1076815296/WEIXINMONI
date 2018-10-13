@@ -8,24 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		34D150CE2171A24200006D23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D150CD2171A24200006D23 /* AppDelegate.m */; };
-		34D150D12171A24200006D23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D150D02171A24200006D23 /* ViewController.m */; };
-		34D150D42171A24200006D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D150D22171A24200006D23 /* Main.storyboard */; };
 		34D150D62171A24300006D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D150D52171A24300006D23 /* Assets.xcassets */; };
 		34D150D92171A24400006D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D150D72171A24400006D23 /* LaunchScreen.storyboard */; };
 		34D150DC2171A24400006D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D150DB2171A24400006D23 /* main.m */; };
+		34D150FF2171C50C00006D23 /* ZWJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D150FE2171C50C00006D23 /* ZWJTabBarViewController.m */; };
+		34D151052171CF4A00006D23 /* ZWJWeiXinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D151042171CF4A00006D23 /* ZWJWeiXinViewController.m */; };
+		34D151082171CFC100006D23 /* ZWJINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D151072171CFC100006D23 /* ZWJINavigationController.m */; };
+		34D1510B2171D09400006D23 /* ZWJMailListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D1510A2171D09400006D23 /* ZWJMailListViewController.m */; };
+		34D1510E2171D0BB00006D23 /* ZWJFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D1510D2171D0BB00006D23 /* ZWJFindViewController.m */; };
+		34D151112171D0E300006D23 /* ZWJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D151102171D0E300006D23 /* ZWJMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34D150C92171A24200006D23 /* WeiXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D150CC2171A24200006D23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34D150CD2171A24200006D23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		34D150CF2171A24200006D23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34D150D02171A24200006D23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		34D150D32171A24200006D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34D150D52171A24300006D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34D150D82171A24400006D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34D150DA2171A24400006D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D150DB2171A24400006D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34D150FD2171C50C00006D23 /* ZWJTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWJTabBarViewController.h; sourceTree = "<group>"; };
+		34D150FE2171C50C00006D23 /* ZWJTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWJTabBarViewController.m; sourceTree = "<group>"; };
+		34D151032171CF4A00006D23 /* ZWJWeiXinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWJWeiXinViewController.h; sourceTree = "<group>"; };
+		34D151042171CF4A00006D23 /* ZWJWeiXinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWJWeiXinViewController.m; sourceTree = "<group>"; };
+		34D151062171CFC100006D23 /* ZWJINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWJINavigationController.h; sourceTree = "<group>"; };
+		34D151072171CFC100006D23 /* ZWJINavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWJINavigationController.m; sourceTree = "<group>"; };
+		34D151092171D09400006D23 /* ZWJMailListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWJMailListViewController.h; sourceTree = "<group>"; };
+		34D1510A2171D09400006D23 /* ZWJMailListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWJMailListViewController.m; sourceTree = "<group>"; };
+		34D1510C2171D0BB00006D23 /* ZWJFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWJFindViewController.h; sourceTree = "<group>"; };
+		34D1510D2171D0BB00006D23 /* ZWJFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWJFindViewController.m; sourceTree = "<group>"; };
+		34D1510F2171D0E300006D23 /* ZWJMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWJMeViewController.h; sourceTree = "<group>"; };
+		34D151102171D0E300006D23 /* ZWJMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWJMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +71,212 @@
 		34D150CB2171A24200006D23 /* WeiXin */ = {
 			isa = PBXGroup;
 			children = (
-				34D150CC2171A24200006D23 /* AppDelegate.h */,
-				34D150CD2171A24200006D23 /* AppDelegate.m */,
-				34D150CF2171A24200006D23 /* ViewController.h */,
-				34D150D02171A24200006D23 /* ViewController.m */,
-				34D150D22171A24200006D23 /* Main.storyboard */,
+				34D150E22171A44600006D23 /* WeiXinClasses */,
 				34D150D52171A24300006D23 /* Assets.xcassets */,
 				34D150D72171A24400006D23 /* LaunchScreen.storyboard */,
 				34D150DA2171A24400006D23 /* Info.plist */,
 				34D150DB2171A24400006D23 /* main.m */,
 			);
 			path = WeiXin;
+			sourceTree = "<group>";
+		};
+		34D150E22171A44600006D23 /* WeiXinClasses */ = {
+			isa = PBXGroup;
+			children = (
+				34D150F72171C25400006D23 /* AppDelegate */,
+				34D150F82171C25400006D23 /* Other */,
+				34D150E32171A44600006D23 /* find(发现) */,
+				34D150E72171A44600006D23 /* MailList(通讯录) */,
+				34D150EB2171A44600006D23 /* Main(主要) */,
+				34D150EF2171A44600006D23 /* Weixin(微信) */,
+				34D150F32171A44600006D23 /* Me(我) */,
+			);
+			path = WeiXinClasses;
+			sourceTree = "<group>";
+		};
+		34D150E32171A44600006D23 /* find(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				34D150E42171A44600006D23 /* Controller */,
+				34D150E52171A44600006D23 /* Model */,
+				34D150E62171A44600006D23 /* View */,
+			);
+			path = "find(发现)";
+			sourceTree = "<group>";
+		};
+		34D150E42171A44600006D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34D1510C2171D0BB00006D23 /* ZWJFindViewController.h */,
+				34D1510D2171D0BB00006D23 /* ZWJFindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34D150E52171A44600006D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34D150E62171A44600006D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34D150E72171A44600006D23 /* MailList(通讯录) */ = {
+			isa = PBXGroup;
+			children = (
+				34D150E82171A44600006D23 /* Controller */,
+				34D150E92171A44600006D23 /* Model */,
+				34D150EA2171A44600006D23 /* View */,
+			);
+			path = "MailList(通讯录)";
+			sourceTree = "<group>";
+		};
+		34D150E82171A44600006D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34D151092171D09400006D23 /* ZWJMailListViewController.h */,
+				34D1510A2171D09400006D23 /* ZWJMailListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34D150E92171A44600006D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34D150EA2171A44600006D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34D150EB2171A44600006D23 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				34D150FC2171C47200006D23 /* Controller */,
+				34D150ED2171A44600006D23 /* Model */,
+				34D150EE2171A44600006D23 /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		34D150ED2171A44600006D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34D150EE2171A44600006D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34D150EF2171A44600006D23 /* Weixin(微信) */ = {
+			isa = PBXGroup;
+			children = (
+				34D150F02171A44600006D23 /* Controller */,
+				34D150F12171A44600006D23 /* Model */,
+				34D150F22171A44600006D23 /* View */,
+			);
+			path = "Weixin(微信)";
+			sourceTree = "<group>";
+		};
+		34D150F02171A44600006D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34D151032171CF4A00006D23 /* ZWJWeiXinViewController.h */,
+				34D151042171CF4A00006D23 /* ZWJWeiXinViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34D150F12171A44600006D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34D150F22171A44600006D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34D150F32171A44600006D23 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				34D150F42171A44600006D23 /* Controller */,
+				34D150F52171A44600006D23 /* Model */,
+				34D150F62171A44600006D23 /* View */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		34D150F42171A44600006D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34D1510F2171D0E300006D23 /* ZWJMeViewController.h */,
+				34D151102171D0E300006D23 /* ZWJMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34D150F52171A44600006D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34D150F62171A44600006D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34D150F72171C25400006D23 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				34D150CC2171A24200006D23 /* AppDelegate.h */,
+				34D150CD2171A24200006D23 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = WeiXin/WeiXinClasses/AppDelegate;
+			sourceTree = SOURCE_ROOT;
+		};
+		34D150F82171C25400006D23 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			path = WeiXin/WeiXinClasses/Other;
+			sourceTree = SOURCE_ROOT;
+		};
+		34D150FC2171C47200006D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34D150FD2171C50C00006D23 /* ZWJTabBarViewController.h */,
+				34D150FE2171C50C00006D23 /* ZWJTabBarViewController.m */,
+				34D151062171CFC100006D23 /* ZWJINavigationController.h */,
+				34D151072171CFC100006D23 /* ZWJINavigationController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +338,6 @@
 			files = (
 				34D150D92171A24400006D23 /* LaunchScreen.storyboard in Resources */,
 				34D150D62171A24300006D23 /* Assets.xcassets in Resources */,
-				34D150D42171A24200006D23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +348,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D150D12171A24200006D23 /* ViewController.m in Sources */,
 				34D150DC2171A24400006D23 /* main.m in Sources */,
+				34D150FF2171C50C00006D23 /* ZWJTabBarViewController.m in Sources */,
+				34D151052171CF4A00006D23 /* ZWJWeiXinViewController.m in Sources */,
+				34D1510B2171D09400006D23 /* ZWJMailListViewController.m in Sources */,
+				34D151112171D0E300006D23 /* ZWJMeViewController.m in Sources */,
+				34D151082171CFC100006D23 /* ZWJINavigationController.m in Sources */,
+				34D1510E2171D0BB00006D23 /* ZWJFindViewController.m in Sources */,
 				34D150CE2171A24200006D23 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +362,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		34D150D22171A24200006D23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34D150D32171A24200006D23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		34D150D72171A24400006D23 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
